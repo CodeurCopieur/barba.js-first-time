@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body data-barba="wrapper">
+
+  <div class="overlay">
+    <div class="layer layer-1"></div>
+    <div class="layer layer-2"></div>
+    <div class="layer layer-3"></div>
+  </div>
+
+  <div class="wipe-transition"></div>
+
+  <nav>
+    <ul>
+      <li><a href="./index.html">Accueil 1</a></li>
+      <li><a href="./page1.html">Accueil 2</a></li>
+      <li><a href="./page2.html">Accueil 3</a></li>
+    </ul>
+  </nav>
+
+  <main data-barba="container" data-barba-namespace="home">
+    <section class="accueil1"></section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
