@@ -61,9 +61,6 @@ nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: end;
   pointer-events: none;
   overflow: hidden; }
   .overlay .layer {
